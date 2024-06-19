@@ -50,6 +50,7 @@ nav {
 h1 {
   text-align: center;
   color: blue;
+  color: rgb(255, 0, 64);
   background-color: rgb(214, 230, 243);
   width: 400px;
   margin: 0% auto;
