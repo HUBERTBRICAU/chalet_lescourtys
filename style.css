@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+header li {
+  list-style-type: none;
+  float: right;
+  color: blue;
+  list-style-type: none;
+  padding: 0 25px 0px 0;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: blue;
+  text-transform: capitalize;
+}
+
+nav {
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(214, 230, 243);
+}
+.cartes{
+  width: 350px;
+  height: 250px;
+  border: 1px black solid;
+  margin-left: 15px;
+}
+
+#logo {
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  background-color: rgb(214, 230, 243);
+  width: 400px;
+  margin: 0% auto;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.entete {
+  margin: 0;
+}
+
+.spanMaps {
+  color: red;
+}
+
+#leChalet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#premierTrait {
+  height: 1px;
+  background-color: blue;
+  width: 100%;
+  margin: 0 auto;
+  /* margin-top: 15px; */
+}
+.traitHaut {
+  height: 1px;
+  background-color: blue;
+  width: 100%;
+  margin: 0 auto;
+  /* margin-top: 15px; */
+}
+#textIntro {
+  margin: 20px 0 0 0;
+  color: red;
+}
+.textNature {
+  margin: 0 0 0 0;
+  color: red;
+}
+
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+#localisation {
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+#nature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding: 30px 10%; */
+}
+.textNature {
+  font-size: 1.5em;
+}
+#neer {
+  visibility: hidden;
+}
+
+.photos {
+  width: 300px;
+  height: 180px;
+}
