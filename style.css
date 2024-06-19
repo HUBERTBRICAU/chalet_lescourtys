@@ -1,5 +1,11 @@
+
+
 html {
   scroll-behavior: smooth;
+  font-family: "Playwrite ES", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
 }
 header li {
   list-style-type: none;
