@@ -33,6 +33,9 @@ nav {
   border: 1px black solid;
   margin-left: 15px;
 }
+.cartes:hover {
+  transform: scale(1.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 #logo {
   float: left;
