@@ -29,14 +29,14 @@ nav {
   width: 90%;
   margin: 0 auto;
   height: 50px;
-  border: 2px solid blue;
+  border: 2px solid black;
   border-radius: 20px;
   background-color: rgb(214, 230, 243);
 }
 .cartes{
   width: 350px;
   height: 250px;
-  border: 2px rgb(50, 31, 195) solid;
+  border: 2px rgb(203, 27, 62) solid;
   margin-left: 15px;
 }
 .cartes:hover {
