@@ -36,7 +36,7 @@ nav {
 .cartes{
   width: 350px;
   height: 250px;
-  border: 2px blue solid;
+  border: 2px red solid;
   margin-left: 15px;
 }
 .cartes:hover {
