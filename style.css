@@ -36,7 +36,7 @@ nav {
 .cartes{
   width: 350px;
   height: 250px;
-  border: 1px black solid;
+  border: 2px blue solid;
   margin-left: 15px;
 }
 .cartes:hover {
@@ -49,7 +49,7 @@ nav {
 
 h1 {
   text-align: center;
-  color: rgb(255, 0, 64);
+  color:blue;
   background-color: rgb(214, 230, 243);
   width: 400px;
   margin: 0% auto;
