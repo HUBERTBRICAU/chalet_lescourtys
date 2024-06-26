@@ -54,7 +54,7 @@ nav {
 
 h1 {
   text-align: center;
-  color:blue;
+  color:bluef;
   background-color: rgb(214, 230, 243);
   width: 400px;
   margin: 0% auto;
@@ -63,6 +63,8 @@ h1 {
 }
 .entete {
   margin: 5px 0 5px 0;
+color: green;
+text-decoration:underline;
 }
 
 .spanMaps {
