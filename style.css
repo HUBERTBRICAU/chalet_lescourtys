@@ -86,19 +86,13 @@ text-decoration:underline;
 
 #textIntro {
   margin: 20px 0 0 0;
-  color: red;
+  color: green;
 }
 .textNature {
   margin: 0 0 0 0;
-  color: red;
+  color: green;
 }
 
-#prestations {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 30px 10%;
-}
 #localisation {
   display: flex;
   padding: 30px;
