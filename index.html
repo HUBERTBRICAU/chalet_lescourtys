@@ -17,27 +17,25 @@
   <body>
     <header>
       <nav>
+        
         <ul>
           <li id="logo">Le chalet Courtys</li>
           <li class="lang"><a href="#langue">Langues</a></li>
           <li><a href="acceder">Accès</a></li>
           <li><a href="#contacter">Contact</a></li>
         </ul>
+       <button onclick="myFunction()">Neerlandais</button>
+          <button onclick="Français()">Français</button>     
+    
       </nav>
       <div id=" imagePrincipale">
-        <h1>Le chalet Courtys</h1>
+        <h1 id="h1id">Le chalet Courtys</h1>
       </div>
       <div id="localisation">
         <a href="#"><img class="cartes" src="Ajouts/carte.jpg" alt="" /></a>
-        <a href="#"
-          ><img class="cartes" src="Ajouts/ccartegrosse.png" alt=""
-        /></a>
-        <imgdam
-          src="Ajouts/QRCode.png"
-          alt="qr code"
-          style="margin-left: 60px; height: 80px"
-        />
-
+        <a href="#"><img class="cartes" src="Ajouts/ccartegrosse.png" alt=""/></a>
+        <imgdam src="Ajouts/QRCode.png" alt="qr code" style="margin-left: 60px; height: 80px" />
+       
         <div>
           <span class="textNature" style="margin-left: 60px; height: 80px"
             >Cliquer
@@ -135,14 +133,14 @@
     <section>
       <div class="premierTrait"></div>
       <div class="textNature">
-        <p class="entete">
+        <p id="remarquables" class="entete">
           Une idée de quelques sites remarquables des Ardennes
         </p>
         <p id="clickSurPhoto">Cliquer sur la photo pour maps</p>
       </div>
       <div id="prestations">
         <div class="imagesPrestations">
-          <h4>Le château de Sedan</h4>
+          <h4 id="chateauSedan">Le château de Sedan</h4>
           <a
             href="https://www.google.com/maps/dir/49.7590709,4.7272375/49.68967,4.902479/@49.724913,4.6409931,11z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu"
             ><img
@@ -153,7 +151,7 @@
           /></a>
         </div>
         <div class="imagesPrestations">
-          <h4>Charleville-Mézières, la place ducale</h4>
+          <h4 id="placeDucale">Charleville-Mézières, la place ducale</h4>
           <a
             href="https://www.google.com/maps/place/Place+Ducale,+08000+Charleville-M%C3%A9zi%C3%A8res/@49.7712322,4.7192044,15.5z/data=!4m17!1m10!4m9!1m4!2m2!1d4.7272375!2d49.7590709!4e1!1m3!2m2!1d4.721046!2d49.773758!3m5!1s0x47ea0e0eafc7f9bb:0x52ea788705d11fd5!8m2!3d49.7736263!4d4.7209091!16s%2Fg%2F11b8v3_6gt?entry=ttu"
             ><img
@@ -164,7 +162,7 @@
           /></a>
         </div>
         <div class="imagesPrestations">
-          <h4>Saint-Aignan, l'écluse</h4>
+          <h4 id="tunnelCanal">Saint-Aignan, le tunnel du canal</h4>
           <img
             class="photos"
             src="Ajouts/ecluse.jpg"
@@ -173,7 +171,7 @@
           />
         </div>
         <div class="imagesPrestations">
-          <h4 id="trouver">Les 4 fils Aymon, le cheval Bayart</h4>
+          <h4 id="Bayart">Les 4 fils Aymon, le cheval Bayart</h4>
           <a
             href="https://www.google.com/maps/dir/49.7590709,4.7272375/49.857387,4.739437/@49.8573293,4.739245,20.25z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu"
             ><img
@@ -184,7 +182,7 @@
           /></a>
         </div>
         <div class="imagesPrestations">
-          <h4 id="trouver">Laifour, les dames de Meuse</h4>
+          <h4 id="dames">Laifour, les dames de Meuse</h4>
           <!-- <h4 id="trouver">Laifour, De dames van Maas</h4> -->
           <a href="#"
             ><img
@@ -206,7 +204,7 @@
           /></a>
         </div>
         <div class="imagesPrestations">
-          <h4 id="trouver">Saint-Aignan, l'église</h4>
+          <h4 id="eglise">Saint-Aignan, l'église</h4>
           <img
             class="photos"
             src="Ajouts/chalet/2024-06-13_15h44_15 (1).jpg"
@@ -216,6 +214,7 @@
         </div>
       </div>
     </section>
+    <script src="script.js"></script>
     <!-- //========================================================================== -->
   </body>
 </html>
