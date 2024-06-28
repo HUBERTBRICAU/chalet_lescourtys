@@ -55,6 +55,7 @@ nav {
   color:black;
   font-size: 15px;
   text-decoration: none;
+  /* margin-top: 0; */
 }
 
 #logo {
@@ -111,6 +112,12 @@ text-decoration:underline;
     justify-content: space-between;
   }
 
+  #prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+  }
 
 .textNature {
   font-size: 1.5em;
