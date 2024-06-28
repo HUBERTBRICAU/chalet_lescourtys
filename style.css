@@ -75,11 +75,7 @@ text-decoration:underline;
   color: red;
 }
 
-#leChalet {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 
 .premierTrait {
   height: 2px;
@@ -112,7 +108,12 @@ text-decoration:underline;
 #chalet{
    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-evenly;
+  }
+
+  .imagesChalet{
+    width: 300;
+    height: 180;
   }
 
   #prestations {
