@@ -9,6 +9,9 @@ function Neerlandais() {
   document.getElementById("eglise").innerHTML = "Saint-Aignan, de kerk";
   document.getElementById("placeDucale").innerHTML = "Charleville-Mézières, hertogelijk plein";
   document.getElementById("chateauSedan").innerHTML = "Kasteel Sedan";
+
+  document.getElementById("riviere").innerHTML = "Een rivier";
+  document.getElementById("Champignons").innerHTML = "Paddestoelen";
 }
 function Français() {
   document.getElementById("h1id").innerHTML = "Le chalet Courtys";
@@ -21,4 +24,9 @@ function Français() {
   document.getElementById("eglise").innerHTML = "Saint-Aignan, l'église";
   document.getElementById("placeDucale").innerHTML = "Charleville-Mézières, place ducale";
   document.getElementById("chateauSedan").innerHTML = "Le château de Sedan";
+
+  document.getElementById("riviere").innerHTML = "Une riviére";
+  document.getElementById("Champignons").innerHTML = "Champignons";
+
+
 }
