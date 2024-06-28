@@ -27,6 +27,5 @@ function Français() {
 
   document.getElementById("riviere").innerHTML = "Une riviére";
   document.getElementById("Champignons").innerHTML = "Champignons";
-
-
 }
+
