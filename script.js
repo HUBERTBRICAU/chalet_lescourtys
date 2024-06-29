@@ -1,10 +1,12 @@
+let langue = "français";
+
 function Neerlandais() {
   document.getElementById("h1id").innerHTML = "Het Courtys-chalet";
   document.getElementById("logo").innerHTML = "Het Courtys-chalet";
   document.getElementById("remarquables").innerHTML = "Een idee van enkele opmerkelijke plekken in de Ardennen";
   document.getElementById("textNaturecmlic").innerHTML = "Klik om naar Kaarten te gaan";
-  document.getElementById("Neerlandais").innerHTML = "Frans";
   
+  // document.getElementById("Neerlandais").innerHTML = langue;
   
   document.getElementById("Bayart").innerHTML = "De 4 zonen Aymon, het Bayart-paard";
   document.getElementById("tunnelCanal").innerHTML = "Saint-Aignan, de kanaaltunnel";
@@ -19,8 +21,8 @@ function Neerlandais() {
 function Français() {
   document.getElementById("h1id").innerHTML = "Le chalet Courtys";
   document.getElementById("logo").innerHTML = "Le chalet Courtys";
-  document.getElementById("Frans").innerHTML = "Français";
-  document.getElementById("Neerlandais").style.visibility = "hidden";
+  document.getElementById("Frans").innerHTML = langue;
+  // document.getElementById("Neerlandais").style.visibility = "hidden";
   document.getElementById("remarquables").innerHTML = "Une idée de quelques sites remarquables des Ardennes";
   document.getElementById("textNaturecmlic").innerHTML = "Cliquer pour aller sur Maps";
   document.getElementById("Bayart").innerHTML = "Les 4 fils Aymon, le cheval Bayart";
