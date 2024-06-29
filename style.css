@@ -50,9 +50,10 @@ nav {
 .cartes:hover {
   transform: scale(1.6); 
 }
-.imagesChalet:hover {
+
+/* .imagesChalet:hover {
   transform: scale(2);
-}
+} */
 #clickSurPhoto{
   color:black;
   font-size: 15px;
