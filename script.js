@@ -1,7 +1,7 @@
 
 
   const langueFrancais = "Français";
-  const langueNeerl = "Neerlandais";
+  const langueNeerl = "Nederlands";
 
 function Neerlandais() {
   document.getElementById("h1id").innerHTML = "Het Courtys-chalet";
