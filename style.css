@@ -1,5 +1,3 @@
-
-
 html {
   scroll-behavior: smooth;
   font-family: "Playwrite ES", cursive;
@@ -9,65 +7,61 @@ html {
 }
 header li {
   list-style-type: none;
-  float: right;
+  float: left;
   color: blue;
-  list-style-type: none;
   padding: 0 25px 0px 0;
 }
 h1 {
   text-align: center;
-  color:bluef;
+  color: bluef;
   background-color: rgb(214, 230, 243);
-  width: 400px;
-  margin: 0% auto;
+  width: 350px;
+  margin-left: 20px;
   margin-top: 30px;
   border-radius: 20px;
 }
-h4{
+h4 {
   margin-top: 10;
   margin-bottom: 0;
 }
-.cartes{
+.cartes {
   width: 350px;
   height: 250px;
   border: 2px rgb(41, 195, 44) solid;
   margin-left: 15px;
 }
-li a {
-  text-decoration: none;
-  color: blue;
-}
-
-nav {
-  width: 60%;
-  height: 50px;
-  border: 2px solid black;
-  border-radius: 20px;
-  background-color: rgb(214, 230, 243);
-  padding: 4PX;
-}
 
 .cartes:hover {
-  transform: scale(1.6); 
+  transform: scale(1.6);
 }
 
 /* .imagesChalet:hover {
   transform: scale(2);
 } */
-#clickSurPhoto{
-  color:black;
+#clickSurPhoto {
+  color: black;
   font-size: 15px;
   text-decoration: none;
 }
 
+nav {
+  padding: 4px;
+}
+
 #logo {
   float: left;
+  margin-left: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: blue;
 }
 
 .entete {
   margin: 5px 0 5px 0;
-color: green;
-text-decoration:underline;
+  color: green;
+  text-decoration: underline;
 }
 
 .spanMaps {
@@ -102,30 +96,29 @@ text-decoration:underline;
   justify-content: space-between;
 }
 
-#chalet{
-   display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-  }
+#chalet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-  .imagesChalet{
-    width: 300;
-    height: 180;
-    
-  }
+.imagesChalet {
+  width: 300;
+  height: 180;
+}
 
-  #prestations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px 10%;
-  }
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
 
 .textNature {
   font-size: 1.5em;
   padding: 0 0 0 0;
 }
-#textNaturecmlic{
+#textNaturecmlic {
   font-size: 1.5em;
   padding: 0 0 0 0;
   color: green;
@@ -140,7 +133,7 @@ text-decoration:underline;
   height: 180px;
 }
 
-.imanat{
+.imanat {
   width: 250px;
   height: 180px;
 }
