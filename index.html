@@ -15,30 +15,42 @@
   </head>
   <!-- href"#"  = retour en haut de la page -->
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li id="logo"> </li>
-          <!-- <li class="lang"><a href="#langue">Langues</a></li> -->
-          <!-- <li><a href="acceder">Accès</a></li> -->
-          <!-- <li><a href="#contacter">Contact</a></li> -->
-          <li><a id="Neerlandais" onclick="Neerlandais()">Nederlands</a></li>
-          <li><a id="Français"  onclick="Français()">Français</a>     
-
-        </ul>
+    <div id="menu">
+      <div>
+        <img
+          onclick="maLangue()"
+          id="image"
+          src="images/drapeau-pays-bas.png"
+          width="50px"
+        />
+      </div>
+      <nav id="maNav">
+        <a id="leVillage" onclick="modif()">Le village</a>
+        <a id="leChalet" href="lechalet">Le chalet</a>
       </nav>
+    </div>
+    <header>
       <div id=" imagePrincipale">
         <h1 id="h1id">Le chalet Courtys</h1>
       </div>
       <div id="localisation">
         <a href="#"><img class="cartes" src="Ajouts/carte.jpg" alt="" /></a>
-        <a href="#"><img class="cartes" src="Ajouts/ccartegrosse.png" alt=""/></a>
-        <imgdam src="Ajouts/QRCode.png" alt="qr code" style="margin-left: 60px;" />
-       
+        <a href="#"
+          ><img class="cartes" src="Ajouts/ccartegrosse.png" alt=""
+        /></a>
+        <imgdam
+          src="Ajouts/QRCode.png"
+          alt="qr code"
+          style="margin-left: 60px"
+        />
+
         <div>
-            <a id="textNaturecmlic" style="color:rrgb(7, 43, 7)"
-              href="https://www.google.fr/maps/place/49%C2%B039'09.8%22N+4%C2%B050'54.4%22E/@49.6527304,4.8458741,17z/data=!3m1!4b1!4m4!3m3!8m2!3d49.652727!4d4.848449?entry=ttu"
-              >Cliquer pour aller sur Maps</a>
+          <a
+            id="textNaturecmlic"
+            style="color: rrgb(7, 43, 7)"
+            href="https://www.google.fr/maps/place/49%C2%B039'09.8%22N+4%C2%B050'54.4%22E/@49.6527304,4.8458741,17z/data=!3m1!4b1!4m4!3m3!8m2!3d49.652727!4d4.848449?entry=ttu"
+            >Cliquer pour aller sur Maps</a
+          >
         </div>
       </div>
     </header>
@@ -46,7 +58,7 @@
     <section>
       <div class="premierTrait"></div>
       <div class="textNature">
-        <p  class="entete" id="lechalet" >Le chalet</p>
+        <p class="entete" id="lechalet">Le chalet</p>
       </div>
       <div id="chalet">
         <div class="imagesChalet">
@@ -55,44 +67,32 @@
         </div>
         <div class="imagesChalet">
           <!-- <h4>La cuisine</h4> -->
-          <a href="#"
-            ><img src="Ajouts/photos/baie.jpg" alt="photo"
-          /></a>
+          <a href="#"><img src="Ajouts/photos/baie.jpg" alt="photo" /></a>
         </div>
         <div class="imagesChalet">
           <!-- <h4>La cuisine</h4> -->
-          <a href="#"
-            ><img src="Ajouts/photos/generale.jpg" alt="photo"
-          /></a>
+          <a href="#"><img src="Ajouts/photos/generale.jpg" alt="photo" /></a>
         </div>
         <div class="imagesChalet">
           <!-- <h4>La cuisine</h4> -->
-          <a href="#"
-          ><img src="Ajouts/photos/escalier.jpg" alt="photo"
-          /></a>
+          <a href="#"><img src="Ajouts/photos/escalier.jpg" alt="photo" /></a>
         </div>
         <div class="imagesChalet">
           <!-- <h4>La cuisine</h4> -->
-          <a href="#"
-          ><img src="Ajouts/photos/vueduhaut.jpg" alt="photo"
-          /></a>
+          <a href="#"><img src="Ajouts/photos/vueduhaut.jpg" alt="photo" /></a>
         </div>
-        
+
         <div class="imagesChalet">
           <!-- <h4>La cuisine</h4> -->
-          <a href="#"
-          ><img src="Ajouts/photos/chambre2.jpg" alt="photo"
-          /></a>
+          <a href="#"><img src="Ajouts/photos/chambre2.jpg" alt="photo" /></a>
         </div>
       </div>
-
-      
     </section>
     <!-- //========================================================================== -->
     <section>
       <div class="premierTrait"></div>
       <div class="textNature">
-        <p id="nosforets"  class="entete">Nos forêts</p>
+        <p id="nosforets" class="entete">Nos forêts</p>
       </div>
       <div id="nature">
         <div class="imagesNature">
@@ -135,7 +135,10 @@
     <section>
       <div class="premierTrait"></div>
       <div class="textNature">
-        <p id="remarquables" class="entete"> Une idée de quelques sites remarquables des Ardennes <span  id="clickSurPhoto">( Cliquer sur la photo pour maps )</span> </p>
+        <p id="remarquables" class="entete">
+          Une idée de quelques sites remarquables des Ardennes
+          <span id="clickSurPhoto">( Cliquer sur la photo pour maps )</span>
+        </p>
       </div>
       <div id="prestations">
         <div class="imagesPrestations">

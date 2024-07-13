@@ -11,6 +11,10 @@ header li {
   color: blue;
   padding: 0 25px 0px 0;
 }
+#menu{
+  display:inline-flex;
+  margin-top: 30px;
+ }
 h1 {
   text-align: center;
   color: blue;
