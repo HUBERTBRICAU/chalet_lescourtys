@@ -15,6 +15,9 @@ header li {
   display:inline-flex;
   margin-top: 30px;
  }
+ #maNav{
+  margin-left: 50px;
+ }
 h1 {
   text-align: center;
   color: blue;
