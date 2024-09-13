@@ -4,6 +4,9 @@ html {
   font-optical-sizing: auto;
   background-color: rgb(214, 245, 243);
 }
+body{
+  top: 100px;
+}
 header li {
   list-style-type: none;
   float: left;
